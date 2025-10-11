@@ -681,6 +681,14 @@ p {
   color: var(--accent);
   font-weight: 600;
   font-size: var(--font-size-sm);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: gap 0.3s ease;
+}
+
+.product-card:hover .shop-now {
+  gap: 0.75rem;
 }
 
 /* Cubic-AD Inspired Section Styles */
@@ -888,6 +896,14 @@ p {
   .about-grid {
     grid-template-columns: 1fr;
     gap: var(--spacing-lg);
+  }
+  
+  .about-images {
+    grid-template-columns: 1fr !important;
+  }
+  
+  .about-images > div {
+    height: 200px !important;
   }
   
   .products-grid {
