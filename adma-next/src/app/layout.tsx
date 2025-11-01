@@ -106,7 +106,7 @@ export default function RootLayout({
       "longitude": 55.2708
     },
     "sameAs": [
-      "https://www.facebook.com/admaadvertising",
+      "https://www.facebook.com/p/ADMA-61551098277513",
       "https://www.instagram.com/admaadvertising"
     ],
     "openingHoursSpecification": {
