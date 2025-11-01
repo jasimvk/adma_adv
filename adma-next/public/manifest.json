@@ -1,0 +1,22 @@
+{
+  "name": "Adma Advertising LLC",
+  "short_name": "Adma",
+  "description": "Professional Printing & Promotional Products in Dubai",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#f97316",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/images/adma-logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/adma-logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
