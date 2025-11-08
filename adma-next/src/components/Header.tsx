@@ -96,7 +96,7 @@ export default function Header() {
                 <div className={styles.megaMenu}>
                   <div className={styles.megaCol}>
                     <h4>Stationery & Office</h4>
-                    <Link href="/products#notebooks" className={styles.featured}>Notebooks</Link>
+                    <Link href="/products#notebooks">Notebooks</Link>
                     <Link href="/products#business-cards">Business Cards</Link>
                     <Link href="/products#letterheads">Letterheads</Link>
                     <Link href="/products#envelopes">Envelopes</Link>
@@ -104,14 +104,14 @@ export default function Header() {
                   
                   <div className={styles.megaCol}>
                     <h4>ID & Access Items</h4>
-                    <Link href="/products#lanyards" className={styles.featured}>Lanyards</Link>
+                    <Link href="/products#lanyards">Lanyards</Link>
                     <Link href="/products#id-cards">ID Cards</Link>
                     <Link href="/products#id-holders">ID Card Holders</Link>
                   </div>
                   
                   <div className={styles.megaCol}>
                     <h4>Apparel & Bags</h4>
-                    <Link href="/products#bags" className={styles.featured}>Bags</Link>
+                    <Link href="/products#bags" >Bags</Link>
                     <Link href="/products#t-shirts">T-Shirts</Link>
                     <Link href="/products#caps">Caps</Link>
                     <Link href="/products#umbrellas">Umbrellas</Link>
@@ -119,7 +119,7 @@ export default function Header() {
                   
                   <div className={styles.megaCol}>
                     <h4>Drinkware & Gifts</h4>
-                    <Link href="/products#mugs" className={styles.featured}>Mugs</Link>
+                    <Link href="/products#mugs">Mugs</Link>
                     <Link href="/products#bottles">Water Bottles</Link>
                     <Link href="/products#keychains">Keychains</Link>
                     <Link href="/products#awards">Trophies & Awards</Link>
@@ -143,7 +143,7 @@ export default function Header() {
                     <h4>Printing Services</h4>
                     <Link href="/services#digital-printing" className={styles.featured}>Digital Printing</Link>
                     <Link href="/services#offset-printing">Offset Printing</Link>
-                    <Link href="/services#personalized">Personalized Printing</Link>
+                    <Link href="/services#large-format">Large Format Printing</Link>
                   </div>
                   
                   <div className={styles.megaCol}>
@@ -155,7 +155,7 @@ export default function Header() {
                   
                   <div className={styles.megaCol}>
                     <h4>Specialty Items</h4>
-                    <Link href="/services#aluminum-cladding" className={styles.featured}>Aluminum Cladding</Link>
+                    <Link href="/services#aluminum-cladding">Aluminum Cladding</Link>
                     <Link href="/services#led-displays">LED Displays</Link>
                     <Link href="/services#exhibition">Exhibition Stands</Link>
                   </div>

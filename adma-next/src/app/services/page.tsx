@@ -37,12 +37,12 @@ export default function Services() {
       color: 'from-green-500 to-teal-500'
     },
     {
-      id: 'personalized',
-      title: 'Personalized Printing',
-      icon: '✨',
-      description: 'Customized printing solutions with variable data printing for personalized marketing campaigns.',
-      image: 'https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=800&q=85',
-      features: ['Variable Data Printing', 'Personalized Direct Mail', 'Custom Invitations', 'Numbered Documents'],
+      id: 'large-format',
+      title: 'Large Format Printing',
+      icon: '🎨',
+      description: 'Stunning large format prints for maximum impact at trade shows, retail displays, and events.',
+      image: 'https://images.unsplash.com/photo-1523381294911-8d3cead13475?w=800&q=85',
+      features: ['Banners & Vinyl Graphics', 'Roll-ups & Pop-ups', 'Exhibition Stands', 'Wall Graphics & Murals'],
       color: 'from-pink-500 to-rose-500'
     },
     {

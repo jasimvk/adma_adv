@@ -189,16 +189,16 @@ export default function Home() {
             <Link href="/products?category=stationery" className={styles.featuredCard}>
               <div className={styles.featuredImage}>
                 <Image
-                  src="https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&q=85"
-                  alt="Stationery Products"
+                  src="/images/business cards.jpg.png"
+                  alt="Business Cards & Stationery"
                   fill
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
                   style={{ objectFit: 'cover' }}
                 />
               </div>
               <div className={styles.featuredContent}>
-                <h3>Business Stationery</h3>
-                <p>Business cards, letterheads, envelopes & more</p>
+                <h3>Business Cards</h3>
+                <p>Professional business cards with custom designs</p>
                 <span className={styles.exploreLink}>Explore →</span>
               </div>
             </Link>
@@ -206,16 +206,16 @@ export default function Home() {
             <Link href="/products?category=printing" className={styles.featuredCard}>
               <div className={styles.featuredImage}>
                 <Image
-                  src="https://images.unsplash.com/photo-1565522494258-c9a8dc9e3f1a?w=800&q=85"
-                  alt="Printing Services"
+                  src="/images/flyer.jpeg"
+                  alt="Flyers & Brochures"
                   fill
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
                   style={{ objectFit: 'cover' }}
                 />
               </div>
               <div className={styles.featuredContent}>
-                <h3>Commercial Printing</h3>
-                <p>Flyers, brochures, posters & marketing materials</p>
+                <h3>Flyers & Brochures</h3>
+                <p>High-quality printing for marketing materials</p>
                 <span className={styles.exploreLink}>Explore →</span>
               </div>
             </Link>
@@ -223,33 +223,33 @@ export default function Home() {
             <Link href="/products?category=promotional" className={styles.featuredCard}>
               <div className={styles.featuredImage}>
                 <Image
-                  src="https://images.unsplash.com/photo-1523381294911-8d3cead13475?w=800&q=85"
-                  alt="Promotional Items"
+                  src="/images/magic mug.jpg.png"
+                  alt="Magic Mugs & Promotional Items"
                   fill
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
                   style={{ objectFit: 'cover' }}
                 />
               </div>
               <div className={styles.featuredContent}>
-                <h3>Promotional & Apparel</h3>
-                <p>T-shirts, uniforms, caps & custom apparel</p>
+                <h3>Magic Mugs & Gifts</h3>
+                <p>Customized mugs and promotional gifts</p>
                 <span className={styles.exploreLink}>Explore →</span>
               </div>
             </Link>
 
-            <Link href="/products?category=signage" className={styles.featuredCard}>
+            <Link href="/products?category=stamps" className={styles.featuredCard}>
               <div className={styles.featuredImage}>
                 <Image
-                  src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=800&q=85"
-                  alt="Signage Solutions"
+                  src="/images/stamps.jpeg"
+                  alt="Stamps & Seals"
                   fill
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
                   style={{ objectFit: 'cover' }}
                 />
               </div>
               <div className={styles.featuredContent}>
-                <h3>Signs & Displays</h3>
-                <p>Banners, flags, roll-ups & exhibition stands</p>
+                <h3>Stamps & Seals</h3>
+                <p>Self-inking stamps, rubber stamps & company seals</p>
                 <span className={styles.exploreLink}>Explore →</span>
               </div>
             </Link>

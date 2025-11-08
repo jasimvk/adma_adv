@@ -3,8 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import WhatsAppButton from "@/components/WhatsAppButton";
-import SocialModal from "@/components/SocialModal";
+import SocialFloatingButtons from "@/components/SocialFloatingButtons";
 import Analytics from "@/components/Analytics";
 import Script from "next/script";
 
@@ -140,8 +139,7 @@ export default function RootLayout({
         <Header />
         {children}
         <Footer />
-        <WhatsAppButton />
-        <SocialModal />
+        <SocialFloatingButtons />
       </body>
     </html>
   );
